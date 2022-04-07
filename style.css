@@ -1,0 +1,187 @@
+body {
+  margin-top: 0;  
+}
+
+
+
+.big-header {
+  width: 1000px; 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;  
+}
+
+#picture {
+  width: 1000px;  
+}
+
+.main-header-one {
+  position: absolute;
+  left: 225px;
+  top: 190px;
+  font-family: 'Abril Fatface';
+  margin: 0;
+  font-size: 28px;
+  color: #222;
+}
+
+.main-header-two {
+  position: absolute;
+  left: 225px;
+  top: 215px;
+  font-family: 'Abril Fatface';
+  margin: 0;
+  font-size: 54px;
+  font-weight: 500;
+  color: #222;
+}
+
+ul {
+  list-style-type: square;
+}
+
+h3 {
+  text-transform: uppercase; 
+  font-size: 18px;
+  margin-bottom: 35px;  
+}
+
+h4{
+  font-size: 18px; 
+  line-height: 1.5; 
+  margin-top: 30px;
+  margin-bottom: 0;
+  width: 600px
+}
+
+.text-introduction {
+  width: 573px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans';
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #222;
+}
+
+.text {
+  width: 573px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans';
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #222;
+}
+
+
+
+.quote {
+  background-color: #222;
+  width: 640px;
+  color: white;
+  font-size: 36px;
+  margin-left: auto;
+  margin-right: auto;   
+  font-family: 'Abril Fatface';
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  
+}
+
+#p-quote-one {
+  position: relative;
+  right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  
+}
+
+#p-quote-one::before {
+  content: "“";
+  font-size: 110px;
+  position: relative;
+  left: 10px;
+  bottom: 27px;
+  
+}
+
+
+
+#p-quote-two {
+  position: relative;
+  right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+}
+
+#p-quote-two::before {
+  content: "“";
+  font-size: 110px;
+  position: relative;
+  left: 10px;
+  bottom: 48px;
+}
+
+#p-quote-three {
+  position: relative;
+  right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+}
+
+#p-quote-three::before {
+  content: "“";
+  font-size: 110px;
+  position: relative;
+  left: 10px;
+  bottom: 48px;
+}
+
+
+
+.subtitles {
+  font-family: 'Merriweather';
+  font-size: 12px;
+  margin-top: 0;
+}
+
+#footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  
+}
+
+#black-line {
+  background-color: #222;
+  width: 600px;
+  height: 4px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+
+.article-margin {
+  margin-left: 200px;
+}
